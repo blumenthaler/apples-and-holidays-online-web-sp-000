@@ -96,7 +96,7 @@ holiday_hash.each do |season, data|
     end
   end
 end
-
+bbq_array
 end
 
 
