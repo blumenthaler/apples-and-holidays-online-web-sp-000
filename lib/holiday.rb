@@ -71,7 +71,8 @@ def all_supplies_in_holidays(holiday_hash)
     data.each do |holiday, supply_list|
       array = holiday.to_s.split(" ")
       final_holiday = []
-        array.each do ||
+        array.each do |x|
+          final_holiday << x.capitalize!
       
   binding.pry
 
