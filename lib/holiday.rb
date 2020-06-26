@@ -26,8 +26,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # add the second argument, which is a supply, to BOTH the
   # Christmas AND the New Year's arrays
   
-  # Test: "iterates through winter holidays adds a supply to each one"
-  # This hardcode works, but is not technically an iteration:
+# Test: "iterates through winter holidays adds a supply to each one"
+# This hardcode works, but is not technically an iteration:
  #  holiday_hash[:winter][:christmas] << supply
  #  holiday_hash[:winter][:new_years] << supply
   
