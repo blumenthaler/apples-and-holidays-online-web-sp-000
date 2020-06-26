@@ -91,7 +91,7 @@ holiday_hash.each do |season, data|
   data.each do |holiday, supplies|
     bbq_array = []
     if supplies.include?("BBQ")
-      bbq_array << holiday.key
+      bbq_array << holiday.keys
     end
   end
 end
