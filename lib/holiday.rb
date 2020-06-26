@@ -25,10 +25,12 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash is identical to the one above
   # add the second argument, which is a supply, to BOTH the
   # Christmas AND the New Year's arrays
+  
+  # This works, but not technically an iteration:
  # holiday_hash[:winter][:christmas] << supply
 #  holiday_hash[:winter][:new_years] << supply
   
-  
+  # A better solution:
   holiday_hash[:winter].each do |key, value|
     holiday_hash[:winter][key] << supply
   end
