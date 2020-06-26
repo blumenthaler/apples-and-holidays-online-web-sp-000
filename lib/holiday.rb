@@ -29,7 +29,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
 #  holiday_hash[:winter][:new_years] << supply
   
   
-  holiday_hash[:winter].each {|key, value| holiday_hash[:winter][key] << supply }
+  holiday_hash[:winter].each do |key, value|
+    holiday_hash[:winter][key] << supply
+  end
 end
 
 
