@@ -93,9 +93,10 @@ holiday_hash.each do |season, data|
     if supplies == "BBQ"
       bbq_array.push(holiday)
     end
+    return bbq_array
   end
 end
-return bbq_array
+
 end
 
 
